@@ -1,0 +1,172 @@
+* {
+    
+
+    a,
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #2D3E50;
+        font-family: 'Poppins', sans-serif;
+        }              
+    }
+
+    h1 {
+        font-weight: 700;
+
+    }
+    
+
+.container-tg4 {
+    overflow-x: hidden;
+}
+
+header {
+    
+    nav {
+        text-transform: uppercase;
+        background-color: #2D3E50;
+        font-weight: 700;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+
+.background-green {
+
+    background-color: #1BBC9B;
+}
+
+
+#home {
+    img {
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #home {
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+  }
+
+  #about {
+      .btn {
+          padding: 10px 30px;     
+      }
+      .btn:hover {
+        color: #000;    
+    }
+      a {
+        color:#fff
+    }
+  }
+footer {
+
+    h4 {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    span {
+        color: #fff;
+    }
+
+        img {
+        color: #ffffff;
+    }
+
+    background-color: #2D3E50;
+
+    .social {
+
+        i {
+            cursor: pointer;
+            color: #fff;
+            margin: 10px;
+            font-size: 26px;
+        }    
+        i:hover{
+            color: grey;
+        }    
+        
+
+       
+    }
+
+    .sobre {
+         a {
+             text-decoration: underline;
+            color:#1BBC9B
+        }
+    }
+
+
+
+    .footer-copyright {
+        background-color: #1B252F;
+        color: #fff;
+    }
+}
+
+
+
+.lines {
+    width: 100%;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        
+        padding: 15px;
+    }
+
+    .line {
+        width: 10%;
+        height: 5px;
+        background-color: #1B252F;
+    }
+
+    i {
+        color: #000;
+        font-size: 32px;
+    }
+}
+
+
+.lines-white {
+    width: 100%;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        
+        padding: 15px;
+    }
+
+    .line {
+        width: 10%;
+        height: 5px;
+        background-color: #ffffff;
+    }
+
+    i {
+        color: #fff;
+        font-size: 32px;
+    }
+}
+
